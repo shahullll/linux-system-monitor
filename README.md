@@ -23,3 +23,7 @@ A Bash-based Linux monitoring tool that collects system health information.
 ```bash
 chmod +x scripts/monitor.sh
 ./scripts/monitor.sh
+## Future Improvements
+- CPU usage alerts
+- Memory usage alerts
+- Automated system health reports
