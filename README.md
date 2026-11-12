@@ -1,29 +1,32 @@
 # Linux System Health Monitor
 
-## Project Description
-A Bash-based Linux monitoring tool that collects system health information.
+A Bash-based Linux tool that monitors system health and generates reports.
 
 ## Features
-- CPU monitoring
-- RAM monitoring
+
+- CPU usage monitoring
+- RAM usage monitoring
 - Disk usage monitoring
 - Disk usage warnings
 - Logged-in user monitoring
 - Top 5 memory-consuming processes
 - Automatic report logging
+- System information display
 
 ## Technologies Used
-- Linux Mint / Linux
+
+- Linux
 - Bash Scripting
 - Git
 - GitHub
 
-## How to Run
+## Project Structure
 
-```bash
-chmod +x scripts/monitor.sh
-./scripts/monitor.sh
-## Future Improvements
-- CPU usage alerts
-- Memory usage alerts
-- Automated system health reports
+```text
+linux-system-monitor/
+├── scripts/
+│   └── monitor.sh
+├── logs/
+├── docs/
+├── README.md
+└── .gitignore
